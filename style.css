@@ -78,7 +78,7 @@ p {
   font-style: normal;
   font-weight: 500;
   line-height: 32px; /* 133.333% */
-  letter-spacing: 1%;
+  letter-spacing: 0.01em;
 
   background: linear-gradient(90deg, #a478e8 0%, #516cf7 100%);
   background-clip: text;
@@ -104,23 +104,23 @@ p {
   display: block;
   position: relative;
   line-height: 24px;
-  letter-spacing: 1%;
-  &::before {
-    content: url(/public/img/quoteStart.svg);
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: -24px;
-  }
-  &::after {
-    content: url(/public/img/quoteEnd.svg);
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: -24px;
-  }
+  letter-spacing: 0.01em;
+}
+.quote::before {
+  content: url(/public/img/quoteStart.svg);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -24px;
+}
+.quote::after {
+  content: url(/public/img/quoteEnd.svg);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -24px;
 }
 
 .quote-author {
@@ -130,7 +130,7 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 16px; /* 133.333% */
-  letter-spacing: 1%;
+  letter-spacing: 0.01em;
 }
 
 .divider {
@@ -314,7 +314,7 @@ p {
   font-style: normal;
   font-weight: 500;
   line-height: 32.323px; /* 133.333% */
-  letter-spacing: 1%;
+  letter-spacing: 0.01em;
 }
 
 .project-content {
@@ -369,7 +369,7 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 18.182px; /* 128.571% */
-  letter-spacing: 1%;
+  letter-spacing: 0.01em;
 }
 
 .card-round-right {
@@ -433,15 +433,15 @@ p {
 
 .exp-entry {
   display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: start;
-    align-items: flex-start;
-    padding: 6.061px 0px 16.162px 0px;
-    align-self: stretch;
-    margin-left: 40px;
-    gap: 16px;
-    flex: 1 0 0;
+  flex-direction: column;
+  position: relative;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 6.061px 0px 16.162px 0px;
+  align-self: stretch;
+  margin-left: 40px;
+  gap: 16px;
+  flex: 1 0 0;
 }
 
 .exp-entry::after {
@@ -673,10 +673,8 @@ p {
   gap: 8.081px;
   flex: 1 0 0;
 }
-.subskill-container.blue {
-  & .subskill-title {
-    color: #516cf7;
-  }
+.subskill-container.blue .subskill-title {
+  color: #516cf7;
 }
 
 .subskill-card {
@@ -786,7 +784,7 @@ p {
   .sidebar {
     width: 30%;
     height: 100%;
-    background-color: #F7F9FC;
+    background-color: #f7f9fc;
   }
   .banner-image {
     max-height: 164px;
@@ -807,7 +805,7 @@ p {
     gap: 32px;
     align-self: stretch;
   }
-  .tools-container{
+  .tools-container {
     width: 100%;
   }
 
@@ -845,10 +843,7 @@ p {
     align-items: center;
     gap: 8px;
   }
-  .tool-card{
-    /* flex-wrap: wrap-reverse; */
 
-  }
   .tools-big {
     flex: 1 1 16%;
   }
