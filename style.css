@@ -32,6 +32,9 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  align-self: stretch;
+  justify-content: start;
 }
 
 .sidebar-header-container {
@@ -479,7 +482,7 @@ p {
 }
 
 .date {
-  color:  #47516b;
+  color: #47516b;
   font-family: "DM Sans";
   font-size: 10px;
   font-style: normal;
@@ -497,7 +500,7 @@ p {
 }
 
 .location {
-  color:  #79819a;
+  color: #79819a;
   font-family: "DM Sans";
   font-size: 10px;
   font-style: normal;
@@ -524,7 +527,7 @@ p {
 }
 
 .company-post {
-  color:  #79819a;
+  color: #79819a;
   font-family: "DM Sans";
   font-size: 12px;
   font-style: normal;
@@ -534,7 +537,7 @@ p {
 }
 
 .company-name {
-  color:  #2e2e48;
+  color: #2e2e48;
   font-family: "DM Sans";
   font-size: 14px;
   font-style: normal;
@@ -543,7 +546,7 @@ p {
 }
 
 .exp-details {
-  color:  #79819a;
+  color: #79819a;
   font-family: "DM Sans";
   font-size: 10px;
   font-style: normal;
@@ -587,7 +590,7 @@ p {
 }
 
 .edu-location {
-  color:  #2e2e48;
+  color: #2e2e48;
   font-family: "DM Sans";
   font-size: 12px;
   font-style: normal;
@@ -605,7 +608,7 @@ p {
 }
 
 .edu-details {
-  color:  #2e2e48;
+  color: #2e2e48;
   font-family: "DM Sans";
   font-size: 14px;
   font-style: normal;
@@ -613,7 +616,7 @@ p {
   line-height: 18px; /* 128.571% */
 }
 .edu-details-date {
-  color:  #79819a;
+  color: #79819a;
   text-align: center;
   font-family: "DM Sans";
   font-size: 10px;
@@ -657,7 +660,7 @@ p {
 }
 
 .skill-title {
-  color:  #2e2e48;
+  color: #2e2e48;
   font-family: "DM Sans";
   font-size: 14px;
   font-style: normal;
@@ -690,7 +693,7 @@ p {
 }
 
 .subskill-title {
-  color:  #9251f7;
+  color: #9251f7;
   text-align: center;
   font-family: "DM Sans";
   font-size: 14px;
@@ -753,7 +756,7 @@ p {
 }
 
 .tool-title {
-  color:  #2e2e48;
+  color: #2e2e48;
   font-family: "DM Sans";
   font-size: 14px;
   text-align: center;
@@ -764,7 +767,7 @@ p {
 }
 
 .tool-skill {
-  color:  #79819a;
+  color: #79819a;
   text-align: center;
   font-family: "DM Sans";
   font-size: 10px;
@@ -783,7 +786,6 @@ p {
   }
   .sidebar {
     width: 30%;
-    height: 100%;
     background-color: #f7f9fc;
   }
   .banner-image {
