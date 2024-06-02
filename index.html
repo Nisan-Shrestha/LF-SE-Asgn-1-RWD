@@ -10,145 +10,183 @@
   <body>
     <div class="container">
       <aside class="sidebar">
-        <div class="sidebar-header-container">
+        <div class="sidebar__hero hero">
           <img
             src="public/img/HeaderGirl.jpeg"
             alt="header"
-            class="banner-image"
+            class="hero__banner"
           />
-          <div class="sidebar-titles-container">
-            <div class="titles">
-              <h1>Chiara Bianchi</h1>
-              <h2>Product Designer</h2>
+          <div class="hero__header">
+            <div class="hero__titles">
+              <h1 class="hero__title hero__title--main">Chiara Bianchi</h1>
+              <h2 class="hero__title hero__title--secondary">
+                Product Designer
+              </h2>
             </div>
-            <div class="quote-container">
-              <div class="quote">
+            <div class="hero__quote quote">
+              <div class="quote__text">
                 Design isn’t finished until somebody is using it.
               </div>
-              <div class="quote-author">Brenda Laurel</div>
+              <div class="quote__author">Brenda Laurel</div>
             </div>
             <div class="divider"></div>
           </div>
         </div>
-        <div class="sidebar-infos-container">
+        <div class="sidebar__content">
           <!-- contact section -->
-          <div class="infos-container">
-            <div class="info-entry">
-              <div class="info-icon-container">
-                <img src="public/img/mail.svg" alt="" class="info-icon" />
+          <div class="list">
+            <div class="list__item">
+              <div class="list__icon-container">
+                <img src="public/img/mail.svg" alt="" class="list__icon" />
               </div>
-              <div class="info-details">
-                <p class="info-title">Email</p>
-                <p class="info-value">chiara.bianchi@gmail.com</p>
-              </div>
-            </div>
-            <div class="info-entry">
-              <div class="info-icon-container">
-                <img src="public/img/link.svg" alt="" class="info-icon" />
-              </div>
-              <div class="info-details">
-                <p class="info-title">Website</p>
-                <a class="info-value">https://aldesign.it</a>
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--main">Email</p>
+                <p class="list__value list__value--secondary">
+                  chiara.bianchi@gmail.com
+                </p>
               </div>
             </div>
-            <div class="info-entry">
-              <div class="info-icon-container">
-                <img src="public/img/phone.svg" alt="" class="info-icon" />
+            <div class="list__item">
+              <div class="list__icon-container">
+                <img src="public/img/link.svg" alt="" class="list__icon" />
               </div>
-              <div class="info-details">
-                <p class="info-title">Phone</p>
-                <p class="info-value">(+39) 333 0123 765</p>
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--main">Website</p>
+                <a class="list__value list__value--secondary"
+                  >https://aldesign.it</a
+                >
               </div>
             </div>
-            <div class="info-entry">
-              <div class="info-icon-container">
-                <img src="public/img/location.svg" alt="" class="info-icon" />
+            <div class="list__item">
+              <div class="list__icon-container">
+                <img src="public/img/phone.svg" alt="" class="list__icon" />
               </div>
-              <div class="info-details">
-                <p class="info-title">Address</p>
-                <p class="info-value">Bologna, Italy</p>
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--main">Phone</p>
+                <p class="list__value list__value--secondary">
+                  (+39) 333 0123 765
+                </p>
+              </div>
+            </div>
+            <div class="list__item">
+              <div class="list__icon-container">
+                <img
+                  src="public/img/meta__data--location.svg"
+                  alt=""
+                  class="list__icon"
+                />
+              </div>
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--main">Address</p>
+                <p class="list__value list__value--secondary">Bologna, Italy</p>
               </div>
             </div>
           </div>
           <div class="divider"></div>
           <!-- socials section -->
-          <div class="infos-container">
-            <h3 class="infos-heading">Socials</h3>
-            <div class="info-entry">
+          <div class="list">
+            <h3 class="list__title">Socials</h3>
+            <div class="list__item">
               <img
                 src="public/img/insta.png"
                 alt="Instagram Logo"
-                class="socials-icon"
+                class="list__icon list__icon--social"
               />
-              <div class="info-details">
-                <p class="info-title">Instagram</p>
-                <p class="info-value">@chiara.designs</p>
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--main">Instagram</p>
+                <p class="list__value list__value--secondary">
+                  @chiara.designs
+                </p>
               </div>
             </div>
-            <div class="info-entry">
+            <div class="list__item">
               <img
                 src="public/img/twit.png"
                 alt="Twitter Logo"
-                class="socials-icon"
+                class="list__icon list__icon--social"
               />
-              <div class="info-details">
-                <p class="info-title">Twitter</p>
-                <p class="info-value">@chiara.designs</p>
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--main">Twitter</p>
+                <p class="list__value list__value--secondary">
+                  @chiara.designs
+                </p>
               </div>
             </div>
-            <div class="info-entry">
+            <div class="list__item">
               <img
                 src="public/img/drib.png"
                 alt="Dribble Logo"
-                class="socials-icon"
+                class="list__icon list__icon--social"
               />
-              <div class="info-details">
-                <p class="info-title">Dribble</p>
-                <p class="info-value">@chiara.designs</p>
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--main">Dribble</p>
+                <p class="list__value list__value--secondary">
+                  @chiara.designs
+                </p>
               </div>
             </div>
-            <div class="info-entry">
+            <div class="list__item">
               <img
                 src="public/img/linkedin.png"
                 alt="linkedin Logo"
-                class="socials-icon"
+                class="list__icon list__icon--social"
               />
-              <div class="info-details">
-                <p class="info-title">Linkedin</p>
-                <p class="info-value">chiara-bianchi-123</p>
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--main">Linkedin</p>
+                <p class="list__value list__value--secondary">
+                  chiara-bianchi-123
+                </p>
               </div>
             </div>
           </div>
           <div class="divider"></div>
-          <!-- lang section: uses alt classes -->
-          <div class="infos-container">
-            <h3 class="infos-heading">Languages</h3>
-            <div class="info-entry">
-              <img src="public/img/italy.png" alt="" class="info-icon-flat" />
-              <div class="info-details">
-                <p class="info-title-alt">Italian</p>
-                <p class="info-value-alt">Native</p>
+          <!-- lang section -->
+          <div class="list">
+            <h3 class="list__title">Languages</h3>
+            <div class="list__item">
+              <img
+                src="public/img/italy.png"
+                alt=""
+                class="list__icon list__icon--flat"
+              />
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--secondary">Italian</p>
+                <p class="list__value list__value--main">Native</p>
               </div>
             </div>
-            <div class="info-entry">
-              <img src="public/img/greek.svg" alt="" class="info-icon-flat" />
-              <div class="info-details">
-                <p class="info-title-alt">Greek</p>
-                <p class="info-value-alt">Native</p>
+            <div class="list__item">
+              <img
+                src="public/img/greek.svg"
+                alt=""
+                class="list__icon list__icon--flat"
+              />
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--secondary">Greek</p>
+                <p class="list__value list__value--main">Native</p>
               </div>
             </div>
-            <div class="info-entry">
-              <img src="public/img/english.png" alt="" class="info-icon-flat" />
-              <div class="info-details">
-                <p class="info-title-alt">English</p>
-                <p class="info-value-alt">Professional working</p>
+            <div class="list__item">
+              <img
+                src="public/img/english.png"
+                alt=""
+                class="list__icon list__icon--flat"
+              />
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--secondary">English</p>
+                <p class="list__value list__value--main">
+                  Professional working
+                </p>
               </div>
             </div>
-            <div class="info-entry">
-              <img src="public/img/spain.png" alt="" class="info-icon-flat" />
-              <div class="info-details">
-                <p class="info-title-alt">Spanish</p>
-                <p class="info-value-alt">Elementary</p>
+            <div class="list__item">
+              <img
+                src="public/img/spain.png"
+                alt=""
+                class="list__icon list__icon--flat"
+              />
+              <div class="list__details-wrapper">
+                <p class="list__value list__value--secondary">Spanish</p>
+                <p class="list__value list__value--main">Elementary</p>
               </div>
             </div>
           </div>
@@ -156,56 +194,56 @@
       </aside>
 
       <!-- main section -->
-      <div class="main-container">
+      <div class="main">
         <div class="timeline">
           <!--projects section -->
-          <section class="timeline-container">
-            <h2 class="timeline-heading">Latest Projects</h2>
-            <div class="project-content">
-              <div class="project-card card-round-left">
-                <div class="project-main">
-                  <img src="public/img/figma.png" alt="" class="project-icon" />
-                  <div class="project-main-details">
-                    <p class="project-detail-title">Powerful Design System</p>
-                    <p class="project-detail-content">
+          <section class="timeline__entry entry">
+            <h2 class="entry__header">Latest Projects</h2>
+            <div class="stack">
+              <div class="card card--round-left">
+                <div class="card__main">
+                  <img src="public/img/figma.png" alt="" class="card__icon" />
+                  <div class="card__main-details">
+                    <p class="card__heading">Powerful Design System</p>
+                    <p class="card__description">
                       Figma UI Kit and Design System targeting a wide variety of
                       use cases.
                     </p>
                   </div>
                 </div>
-                <div class="project-link-container">
+                <div class="card__footer link">
                   <img
                     src="public/img/figma-link.png"
                     alt=""
-                    class="link-icon"
+                    class="link__icon"
                   />
-                  <a href="https//figma.com" class="project-link"
+                  <a href="https//figma.com" class="link__text"
                     >https//figma.com
                   </a>
                 </div>
               </div>
-              <div class="project-card card-round-right">
-                <div class="project-main">
+              <div class="card card--round-right">
+                <div class="card__main">
                   <img
                     src="public/img/chakra.png"
                     alt="chakra logo"
-                    class="project-icon"
+                    class="card__icon"
                   />
-                  <div class="project-main-details">
-                    <p class="project-detail-title">Modern Website</p>
-                    <p class="project-detail-content">
+                  <div class="card__main-details">
+                    <p class="card__heading">Modern Website</p>
+                    <p class="card__description">
                       Powerful website + dashboard template for your next Chakra
                       UI project.
                     </p>
                   </div>
                 </div>
-                <div class="project-link-container">
+                <div class="card__footer">
                   <img
                     src="public/img/link-blue.png"
                     alt=""
-                    class="link-icon"
+                    class="footer__icon"
                   />
-                  <a href="https://ui-8.net" class="project-link">
+                  <a href="https://ui-8.net" class="link__text">
                     https://ui-8.net
                   </a>
                 </div>
@@ -213,255 +251,345 @@
             </div>
           </section>
           <!-- experience section -->
-          <section class="timeline-container">
-            <h2 class="timeline-heading">Experience</h2>
-            <div class="exp-content">
-              <div class="exp-timeline">
-                <!-- rows fro experience -->
-                <div class="exp-entry">
-                  <div class="exp-header">
-                    <div class="exp-date-location">
-                      <p class="date">Jul 20 - Jan 2022</p>
-                      <span class="location-wrapper">
-                        <img
-                          src="public/img/lcoation-small.png"
-                          alt=""
-                          class="location-icon"
-                        />
-                        <span class="location">Cuspanertino</span>
-                      </span>
-                    </div>
-                    <div class="exp-company">
+          <section class="timeline__entry entry">
+            <h2 class="entry__header">Experience</h2>
+            <div class="timeline timeline--secondary">
+              <!-- rows fro experience -->
+              <div class="timeline__entry timeline__entry--secondary entry">
+                <div class="entry__header entry__header--secondary">
+                  <div class="entry__meta meta">
+                    <p class="meta__data meta__data--date">Jul 20 - Jan 2022</p>
+                    <span class="meta__wrapper">
                       <img
-                        src="public/img/apple.png"
+                        src="public/img/lcoation-small.png"
                         alt=""
-                        class="company-icon"
+                        class=""
                       />
-                      <div class="company-details">
-                        <p class="company-post">Product designer</p>
-                        <p class="company-name">Apple</p>
-                      </div>
-                    </div>
+                      <span class="meta__data--location">Cuspanertino</span>
+                    </span>
                   </div>
-                  <div class="exp-details">
-                    Omnis minima inventore minus. Aut et incidunt. Aut fugiat
-                    culpa illum optio dolorum aut maxime ipsa. Laborum incidunt
-                    enim consectetur perspiciatis. Dolore ullam dolor impedit
-                    dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut
-                    officia voluptatem.
+                  <div class="entry__main">
+                    <img
+                      src="public/img/apple.png"
+                      alt=""
+                      class="entry__icon"
+                    />
+                    <div class="entry__main--wrapper">
+                      <p class="entry__main--heading">Product designer</p>
+                      <p class="entry__main--subheading">Apple</p>
+                    </div>
                   </div>
                 </div>
-                <div class="exp-entry">
-                  <div class="exp-header">
-                    <div class="exp-date-location">
-                      <p class="date">Oct 2015 - Mar 2020</p>
-                      <span class="location-wrapper">
-                        <img
-                          src="public/img/lcoation-small.png"
-                          alt=""
-                          class="location-icon"
-                        />
-                        <span class="location">Cupertino</span>
-                      </span>
-                    </div>
-                    <div class="exp-company">
+                <div class="entry__subsection">
+                  Omnis minima inventore minus. Aut et incidunt. Aut fugiat
+                  culpa illum optio dolorum aut maxime ipsa. Laborum incidunt
+                  enim consectetur perspiciatis. Dolore ullam dolor impedit
+                  dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut
+                  officia voluptatem.
+                </div>
+              </div>
+              <div class="timeline__entry timeline__entry--secondary">
+                <div class="entry__header entry__header--secondary">
+                  <div class="entry__meta">
+                    <p class="meta__data--date">Oct 2015 - Mar 2020</p>
+                    <span class="meta__wrapper">
                       <img
-                        src="public/img/tesla.png"
+                        src="public/img/lcoation-small.png"
                         alt=""
-                        class="company-icon"
+                        class=""
                       />
-                      <div class="company-details">
-                        <p class="company-post">UX designer</p>
-                        <p class="company-name">Tesla</p>
-                      </div>
-                    </div>
+                      <span class="meta__data--location">Cupertino</span>
+                    </span>
                   </div>
-                  <div class="exp-details">
-                    Commodi atque sit ut qui assumenda earum aperiam occaecati
-                    voluptates. Fuga quas aut soluta nostrum et beatae. Maiores
-                    repudiandae quibusdam autem enim ut in possimus ad.
+                  <div class="entry__main">
+                    <img
+                      src="public/img/tesla.png"
+                      alt=""
+                      class="entry__icon"
+                    />
+                    <div class="entry__main--wrapper">
+                      <p class="entry__main--heading">UX designer</p>
+                      <p class="entry__main--subheading">Tesla</p>
+                    </div>
                   </div>
                 </div>
-                <div class="exp-entry">
-                  <div class="exp-header">
-                    <div class="exp-date-location">
-                      <p class="date">Sep 2010 - Jul 2013</p>
-                      <span class="location-wrapper">
-                        <img
-                          src="public/img/lcoation-small.png"
-                          alt=""
-                          class="location-icon"
-                        />
-                        <span class="location">Mountain View</span>
-                      </span>
-                    </div>
-                    <div class="exp-company">
+                <div class="entry__subsection">
+                  Commodi atque sit ut qui assumenda earum aperiam occaecati
+                  voluptates. Fuga quas aut soluta nostrum et beatae. Maiores
+                  repudiandae quibusdam autem enim ut in possimus ad.
+                </div>
+              </div>
+              <div class="timeline__entry timeline__entry--secondary">
+                <div class="entry__header entry__header--secondary">
+                  <div class="entry__meta">
+                    <p class="meta__data--date">Sep 2010 - Jul 2013</p>
+                    <span class="meta__wrapper">
                       <img
-                        src="public/img/google.png"
+                        src="public/img/lcoation-small.png"
                         alt=""
-                        class="company-icon"
+                        class=""
                       />
-                      <div class="company-details">
-                        <p class="company-post">Design system architect</p>
-                        <p class="company-name">Google</p>
-                      </div>
-                    </div>
+                      <span class="meta__data--location">Mountain View</span>
+                    </span>
                   </div>
-                  <div class="exp-details">
-                    Ut molestias animi. Neque voluptate velit corporis adipisci
-                    voluptate et qui sed neque. Inventore eos non. Qui eveniet
-                    quo incidunt nemo.
+                  <div class="entry__main">
+                    <img
+                      src="public/img/google.png"
+                      alt=""
+                      class="entry__icon"
+                    />
+                    <div class="entry__main--wrapper">
+                      <p class="entry__main--heading">
+                        Design system architect
+                      </p>
+                      <p class="entry__main--subheading">Google</p>
+                    </div>
                   </div>
                 </div>
-                <div class="exp-entry">
-                  <div class="exp-header">
-                    <div class="exp-date-location">
-                      <p class="date">Jul 20 - Jan 2022</p>
-                      <span class="location-wrapper">
-                        <img
-                          src="public/img/lcoation-small.png"
-                          alt=""
-                          class="location-icon"
-                        />
-                        <span class="location">Berlin </span>
-                      </span>
-                    </div>
-                    <div class="exp-company">
+                <div class="entry__subsection">
+                  Ut molestias animi. Neque voluptate velit corporis adipisci
+                  voluptate et qui sed neque. Inventore eos non. Qui eveniet quo
+                  incidunt nemo.
+                </div>
+              </div>
+              <div class="timeline__entry timeline__entry--end timeline__entry--secondary">
+                <div class="entry__header entry__header--secondary">
+                  <div class="entry__meta">
+                    <p class="meta__data--date">Jul 20 - Jan 2022</p>
+                    <span class="meta__wrapper">
                       <img
-                        src="public/img/vectornator.png"
+                        src="public/img/lcoation-small.png"
                         alt=""
-                        class="company-icon"
+                        class=""
                       />
-                      <div class="company-details">
-                        <p class="company-post">Design system architect</p>
-                        <p class="company-name">Vectornator</p>
-                      </div>
+                      <span class="meta__data--location">Berlin </span>
+                    </span>
+                  </div>
+                  <div class="entry__main">
+                    <img
+                      src="public/img/vectornator.png"
+                      alt=""
+                      class="entry__icon"
+                    />
+                    <div class="entry__main--wrapper">
+                      <p class="entry__main--heading">
+                        Design system architect
+                      </p>
+                      <p class="entry__main--subheading">Vectornator</p>
                     </div>
                   </div>
-                  <div class="exp-details">
-                    Non in fugiat aut consequatur deleniti. Consequuntur impedit
-                    modi asperiores impedit ut ea aut eligendi doloremque. Fugit
-                    laborum ducimus hic tempore velit. Sed vitae et corrupti
-                    omnis temporibus. Unde voluptas quaerat ea rerum aspernatur
-                    autem assumenda animi fugit. Omnis laborum velit voluptatum
-                    similique accusantium eveniet voluptatem.
-                  </div>
+                </div>
+                <div class="entry__subsection">
+                  Non in fugiat aut consequatur deleniti. Consequuntur impedit
+                  modi asperiores impedit ut ea aut eligendi doloremque. Fugit
+                  laborum ducimus hic tempore velit. Sed vitae et corrupti omnis
+                  temporibus. Unde voluptas quaerat ea rerum aspernatur autem
+                  assumenda animi fugit. Omnis laborum velit voluptatum
+                  similique accusantium eveniet voluptatem.
                 </div>
               </div>
             </div>
           </section>
           <!-- education section -->
-          <section class="timeline-container">
-            <h2 class="timeline-heading">Education</h2>
-            <div class="edu-content">
-              <div class="edu-card card-round-left">
-                <div class="edu-header">
-                  <img
-                    src="public/img/memor.png"
-                    alt=""
-                    class="edu-card-icon"
-                  />
-                  <div class="edu-location">Memorisely</div>
+          <section class="timeline__entry entry">
+            <h2 class="entry__header">Education</h2>
+            <div class="stack">
+              <div class="card card--education card--round-left">
+                <div class="card__main">
+                  <img src="public/img/memor.png" alt="" class="card__icon" />
+                  <div class="card__heading card__heading--education">
+                    Memorisely
+                  </div>
                 </div>
-                <div class="edu-details-container">
-                  <p class="edu-details">Build a desgin system</p>
-                  <p class="edu-details-date">Oct 2021</p>
-                </div>
-              </div>
-              <div class="edu-card">
-                <div class="edu-header">
-                  <img src="public/img/ux.png" alt="" class="edu-card-icon" />
-                  <div class="edu-location">UX acadamy</div>
-                </div>
-                <div class="edu-details-container card-round-right">
-                  <p class="edu-details">UX Design certificate</p>
-                  <p class="edu-details-date">Feb 2020</p>
+                <div class="card__description-wrapper">
+                  <p
+                    class="card__heading card__heading--small text--center mb-2p"
+                  >
+                    Build a desgin system
+                  </p>
+                  <p class="card__description card__description--date">
+                    Oct 2021
+                  </p>
                 </div>
               </div>
-              <div class="edu-card card-round-right">
-                <div class="edu-header">
+              <div class="card card--education">
+                <div class="card__main">
+                  <img src="public/img/ux.png" alt="" class="card__icon" />
+                  <div class="card__heading card__heading--education`">
+                    UX acadamy
+                  </div>
+                </div>
+                <div class="card__description-wrapper card--round-right">
+                  <p
+                    class="card__heading card__heading--small text--center mb-2p"
+                  >
+                    UX Design certificate
+                  </p>
+                  <p class="card__description card__description--date">
+                    Feb 2020
+                  </p>
+                </div>
+              </div>
+              <div class="card card--education card--round-right">
+                <div class="card__main">
                   <img
                     src="public/img/coursera.png"
                     alt=""
-                    class="edu-card-icon"
+                    class="card__icon"
                   />
-                  <div class="edu-location">Coursera</div>
+                  <div class="card__heading card__heading--education`">
+                    Coursera
+                  </div>
                 </div>
-                <div class="edu-details-container">
-                  <p class="edu-details">User reasearch course</p>
-                  <p class="edu-details-date">Dec 2019</p>
+                <div class="card__description-wrapper">
+                  <p
+                    class="card__heading card__heading--small text--center mb-2p"
+                  >
+                    User reasearch course
+                  </p>
+                  <p class="card__description card__description--date">
+                    Dec 2019
+                  </p>
                 </div>
               </div>
             </div>
           </section>
           <!-- Skills section -->
-          <section class="timeline-container">
-            <h2 class="timeline-heading">Skill</h2>
-            <div class="skills-container">
+          <section class="timeline__entry entry">
+            <h2 class="entry__header">Skill</h2>
+            <div class="grid">
               <!-- design row -->
-              <div class="skill-type">
-                <div class="skill-header">
+              <div class="grid__item">
+                <div class="grid__header">
                   <img
                     src="public/img/design-purple.png"
                     alt=""
-                    class="skill-icon"
+                    class="grid__header-icon"
                   />
-                  <p class="skill-title">Design</p>
+                  <p class="grid__title">Design</p>
                 </div>
-                <div class="subskill-container">
-                  <div class="subskill-card limit-width card-round-left">
-                    <p class="subskill-title">Web Design</p>
+                <div class="stack stack--skill">
+                  <div
+                    class="card card--skills card--row limit-width card--round-left"
+                  >
+                    <p
+                      class="card__heading card__heading--purple card__heading--medium text--center"
+                    >
+                      Web Design
+                    </p>
                     <div class="subskill-divider"></div>
-                    <p class="subskill-title">Mobile Design</p>
+                    <p
+                      class="card__heading card__heading--purple card__heading--medium text--center"
+                    >
+                      Mobile Design
+                    </p>
                   </div>
-                  <div class="subskill-card content-start">
-                    <p class="subskill-title">User Experience</p>
+                  <div class="card card--skills card--row content-start">
+                    <p
+                      class="card__heading card__heading--purple card__heading--medium text--center"
+                    >
+                      User Experience
+                    </p>
                   </div>
-                  <div class="subskill-card content-start">
+                  <div class="card card--skills card--row content-start">
                     <ul class="">
-                      <li class="subskill-title">Wireframing</li>
-                      <li class="subskill-title">Prototyping</li>
-                      <li class="subskill-title">Testing</li>
+                      <li
+                        class="card__heading card__heading--purple card__heading--medium text--center"
+                      >
+                        Wireframing
+                      </li>
+                      <li
+                        class="card__heading card__heading--purple card__heading--medium text--center"
+                      >
+                        Prototyping
+                      </li>
+                      <li
+                        class="card__heading card__heading--purple card__heading--medium text--center"
+                      >
+                        Testing
+                      </li>
                     </ul>
                   </div>
-                  <div class="subskill-card content-start card-round-right">
-                    <p class="subskill-title">Design System</p>
+                  <div
+                    class="card card--skills card--row content-start card--round-right"
+                  >
+                    <p
+                      class="card__heading card__heading--purple card__heading--medium text--center"
+                    >
+                      Design System
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- dev row -->
-              <div class="skill-type">
-                <div class="skill-header">
+              <div class="grid__item">
+                <div class="grid__header">
                   <img
                     src="public/img/dev-blue.png"
                     alt=""
-                    class="skill-icon"
+                    class="grid__header-icon"
                   />
-                  <p class="skill-title">Development</p>
+                  <p class="grid__title">Development</p>
                 </div>
-                <div class="subskill-container blue">
-                  <div class="subskill-card content-start">
-                    <p class="subskill-title">React JS</p>
+                <div class="stack stack--skill blue">
+                  <div class="card card--skills card--row content-start">
+                    <p
+                      class="card__heading card__heading--purple card__heading--medium text--center"
+                    >
+                      React JS
+                    </p>
                   </div>
-                  <div class="subskill-card content-start">
+                  <div class="card card--skills card--row content-start">
                     <ul class="">
-                      <li class="subskill-title">Chakra UI</li>
-                      <li class="subskill-title">Emotion</li>
-                      <li class="subskill-title">Framer</li>
+                      <li
+                        class="card__heading card__heading--purple card__heading--medium text--center"
+                      >
+                        Chakra UI
+                      </li>
+                      <li
+                        class="card__heading card__heading--purple card__heading--medium text--center"
+                      >
+                        Emotion
+                      </li>
+                      <li
+                        class="card__heading card__heading--purple card__heading--medium text--center"
+                      >
+                        Framer
+                      </li>
                     </ul>
                   </div>
-                  <div class="subskill-card limit-width">
-                    <p class="subskill-title">Type script</p>
+                  <div class="card card--skills card--row limit-width">
+                    <p
+                      class="card__heading card__heading--purple card__heading--medium text--center"
+                    >
+                      Type script
+                    </p>
                     <div class="subskill-divider"></div>
-                    <p class="subskill-title">Next JS</p>
+                    <p
+                      class="card__heading card__heading--purple card__heading--medium text--center"
+                    >
+                      Next JS
+                    </p>
                   </div>
-                  <div class="subskill-card limit-width">
-                    <p class="subskill-title">HTML</p>
+                  <div class="card card--skills card--row limit-width">
+                    <p
+                      class="card__heading card__heading--purple card__heading--medium text--center"
+                    >
+                      HTML
+                    </p>
                     <div class="subskill-divider"></div>
-                    <div class="subskill-vertical-group" style="width: 60px">
-                      <p class="subskill-title">CSS</p>
+                    <div class="card__vertical-group" style="width: 60px">
+                      <p
+                        class="card__heading card__heading--purple card__heading--medium text--center"
+                      >
+                        CSS
+                      </p>
                       <div class="vert-divider"></div>
-                      <p class="subskill-title">JS</p>
+                      <p
+                        class="card__heading card__heading--purple card__heading--medium text--center"
+                      >
+                        JS
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -470,62 +598,166 @@
           </section>
         </div>
         <!-- Tools section -->
-        <section class="timeline-container">
-          <h2 class="timeline-heading">Tools</h2>
-          <div class="tools-container">
-            <div class="tools-row">
+        <section class="timeline__entry timeline__entry--end entry">
+          <h2 class="entry__header">Tools</h2>
+          <div class="grid-wrapper">
+            <div class="stack stack--row-wrap">
               <!-- larger cards -->
-              <div class="tool-card tools-big">
-                <img src="public/img/figma.png" alt="" class="tool-icon" />
-                <div >
-                  <p class="tool-title">Figma</p>
-                  <p class="tool-skill">UI Design, prototyping</p>
+              <div class="card card--tool card--big">
+                <img
+                  src="public/img/figma.png"
+                  alt=""
+                  class="card__icon card__icon--auto"
+                />
+                <div>
+                  <p
+                    class="card__heading card__heading--small text--center mb-2p"
+                  >
+                    Figma
+                  </p>
+                  <p
+                    class="card__description card__description--small text--center"
+                  >
+                    UI Design, prototyping
+                  </p>
                 </div>
               </div>
-              <div class="tool-card tools-big">
-                <img src="public/img/mage.png" alt="" class="tool-icon" />
-                <p class="tool-title">Maze</p>
-                <p class="tool-skill">Product research</p>
+              <div class="card card--tool card--big">
+                <img
+                  src="public/img/mage.png"
+                  alt=""
+                  class="card__icon card__icon--auto"
+                />
+                <p
+                  class="card__heading card__heading--small text--center mb-2p"
+                >
+                  Maze
+                </p>
+                <p
+                  class="card__description card__description--small text--center"
+                >
+                  Product research
+                </p>
               </div>
-              <div class="tool-card tools-big">
-                <img src="public/img/spline.png" alt="" class="tool-icon" />
-                <p class="tool-title">Spline</p>
-                <p class="tool-skill">3D design</p>
+              <div class="card card--tool card--big">
+                <img
+                  src="public/img/spline.png"
+                  alt=""
+                  class="card__icon card__icon--auto"
+                />
+                <p
+                  class="card__heading card__heading--small text--center mb-2p"
+                >
+                  Spline
+                </p>
+                <p
+                  class="card__description card__description--small text--center"
+                >
+                  3D design
+                </p>
               </div>
-              <div class="tool-card tools-big">
-                <img src="public/img/zeplin.png" alt="" class="tool-icon" />
-                <p class="tool-title">Zeplin</p>
-                <p class="tool-skill">Design workspace</p>
+              <div class="card card--tool card--big">
+                <img
+                  src="public/img/zeplin.png"
+                  alt=""
+                  class="card__icon card__icon--auto"
+                />
+                <p
+                  class="card__heading card__heading--small text--center mb-2p"
+                >
+                  Zeplin
+                </p>
+                <p
+                  class="card__description card__description--small text--center"
+                >
+                  Design workspace
+                </p>
               </div>
               <!-- smaller cards -->
-              <div class="tool-card tools-small">
+              <div class="card card--tool card--small">
                 <img
                   src="public/img/vectornator.png"
                   alt=""
-                  class="tool-icon"
+                  class="card__icon card__icon--auto"
                 />
-                <p class="tool-title">Vectornator</p>
-                <p class="tool-skill">Graphic Design</p>
+                <p
+                  class="card__heading card__heading--small text--center mb-2p"
+                >
+                  Vectornator
+                </p>
+                <p
+                  class="card__description card__description--small text--center"
+                >
+                  Graphic Design
+                </p>
               </div>
-              <div class="tool-card tools-small">
-                <img src="public/img/rotato.png" alt="" class="tool-icon" />
-                <p class="tool-title">Rotato</p>
-                <p class="tool-skill">Mockups</p>
+              <div class="card card--tool card--small">
+                <img
+                  src="public/img/rotato.png"
+                  alt=""
+                  class="card__icon card__icon--auto"
+                />
+                <p
+                  class="card__heading card__heading--small text--center mb-2p"
+                >
+                  Rotato
+                </p>
+                <p
+                  class="card__description card__description--small text--center"
+                >
+                  Mockups
+                </p>
               </div>
-              <div class="tool-card tools-small">
-                <img src="public/img/vscode.png" alt="" class="tool-icon" />
-                <p class="tool-title">VS Code</p>
-                <p class="tool-skill">Code editor</p>
+              <div class="card card--tool card--small">
+                <img
+                  src="public/img/vscode.png"
+                  alt=""
+                  class="card__icon card__icon--auto"
+                />
+                <p
+                  class="card__heading card__heading--small text--center mb-2p"
+                >
+                  VS Code
+                </p>
+                <p
+                  class="card__description card__description--small text--center"
+                >
+                  Code editor
+                </p>
               </div>
-              <div class="tool-card tools-small">
-                <img src="public/img/xcode.png" alt="" class="tool-icon" />
-                <p class="tool-title">Xcode</p>
-                <p class="tool-skill">iOS development</p>
+              <div class="card card--tool card--small">
+                <img
+                  src="public/img/xcode.png"
+                  alt=""
+                  class="card__icon card__icon--auto"
+                />
+                <p
+                  class="card__heading card__heading--small text--center mb-2p"
+                >
+                  Xcode
+                </p>
+                <p
+                  class="card__description card__description--small text--center"
+                >
+                  iOS development
+                </p>
               </div>
-              <div class="tool-card tools-small">
-                <img src="public/img/notion.png" alt="" class="tool-icon" />
-                <p class="tool-title">Notion</p>
-                <p class="tool-skill">Project managment</p>
+              <div class="card card--tool card--small">
+                <img
+                  src="public/img/notion.png"
+                  alt=""
+                  class="card__icon card__icon--auto"
+                />
+                <p
+                  class="card__heading card__heading--small text--center mb-2p"
+                >
+                  Notion
+                </p>
+                <p
+                  class="card__description card__description--small text--center"
+                >
+                  Project managment
+                </p>
               </div>
             </div>
           </div>
