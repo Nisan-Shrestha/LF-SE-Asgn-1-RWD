@@ -111,7 +111,7 @@ p {
   letter-spacing: 0.01em;
 }
 .quote__text::before {
-  content: url(/public/img/quoteStart.svg);
+  content: url(public/img/quoteStart.svg);
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -119,7 +119,7 @@ p {
   left: -24px;
 }
 .quote__text::after {
-  content: url(/public/img/quoteEnd.svg);
+  content: url(public/img/quoteEnd.svg);
   display: inline-block;
   width: 20px;
   height: 20px;
